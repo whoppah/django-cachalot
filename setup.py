@@ -14,9 +14,9 @@ with open(os.path.join(CURRENT_PATH, 'requirements.txt')) as f:
 setup(
     name='django-cachalot',
     version=__version__,
-    author='Bertrand Bordage',
-    author_email='bordage.bertrand@gmail.com',
-    url='https://github.com/noripyt/django-cachalot',
+    author='Roy Klopper',
+    author_email='roy@whoppah.com',
+    url='https://github.com/whoppah/django-cachalot',
     description='Caches your Django ORM queries '
                 'and automatically invalidates them.',
     long_description=open('README.rst').read(),
@@ -29,6 +29,7 @@ setup(
         'Framework :: Django :: 1.11',
         'Framework :: Django :: 2.0',
         'Framework :: Django :: 2.1',
+        'Framework :: Django :: 2.2',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
